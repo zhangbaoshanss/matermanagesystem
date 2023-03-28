@@ -1,28 +1,26 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <!-- <IndexPage></IndexPage> -->
+    <TestPage></TestPage>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// import IndexPage from './components/IndexPage.vue';
+import TestPage from './components/TestPage.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    // IndexPage
+    TestPage
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+* {
+  padding: 0px;
+  margin: 0px;
 }
 </style>
